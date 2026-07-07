@@ -5,11 +5,3 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
-.blocks{
-    background-color: rgba(247, 240, 237, 0.9);
-    width: 60%;
-    padding: 20px;
-    margin: 40 px auto;
-
-}
