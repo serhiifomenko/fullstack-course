@@ -1,0 +1,37 @@
+body{
+    margin-left: 100px;
+    margin-top: 170px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.player {
+    font-size: 40px;
+    margin: 40px 0 40px 0;
+}
+
+.cards{
+    background-color: lightgray;
+    padding: 15px 20px;
+    font-size: 80px;
+    margin-right: 6px;
+
+}
+
+.red {
+
+    color: darkred;
+}
+
+.black{
+
+    color: black;
+}
+
+
