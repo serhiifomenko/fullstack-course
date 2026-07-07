@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+div{
+
+    margin-left: 50px;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+p{
+    font-family: "Copperplate Gothic Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    width: 60%;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+
+
+}
+
+h1{
+    color: white;
+    width: 50%;
+    font-size: 90px;
+    margin-left: 4%;
+    margin-bottom: 0;
+
+}
+
+.first text{
+
+    margin-bottom: 0;
+
+}
+
+.red{
+
+    color:red;
+    background-color: black;
+}
+
+
