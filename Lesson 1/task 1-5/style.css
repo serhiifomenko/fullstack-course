@@ -4,7 +4,218 @@ body{
 
 div{
 
-    margin-left: 50px;
+    margin-left: 20px;
+}
+.header-row{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    position: relative;
+    top: 70px;
+}
+
+.profile{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    top: -30px;
+
+}
+.profile-nicholson{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+}
+.profile-kim{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-wuhl{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-pat{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-billy{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-michael{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-jack{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-tracey{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+.profile-jerry{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+}
+
+.bio{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 173px;
+    font-family: Copperplate, serif;
+
+}
+
+.bio2{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    right: 130px;
+    margin-top: 225px;
+    font-family: Copperplate, serif;
+}
+
+.bio3{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 210px;
+    font-family: Copperplate, serif;
+}
+
+.bio4{
+
+        background-color: lightgray;
+        color: black;
+        padding: 10px;
+        max-width: 500px;
+        font-size: 20px;
+        margin-top: 150px;
+    font-family: Copperplate, serif;
+}
+
+.bio5{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 340px;
+    font-family: Copperplate, serif;
+}
+.bio6{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 348px;
+    font-family: Copperplate, serif;
+}
+.bio7{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 228px;
+    font-family: Copperplate, serif;
+}
+.bio8{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 80px;
+    font-family: Copperplate, serif;
+}
+.bio9{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 243px;
+    font-family: Copperplate, serif;
+}
+.bio10{
+
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 159px;
+    font-family: Copperplate, serif;
 }
 
 
