@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #690340;
+    background: linear-gradient(36deg, rgba(105, 3, 64, 1) 0%, rgba(157, 0, 171, 1) 56%, rgba(46, 31, 255, 1) 100%);
+}
+
+.item{
+
+
+    width: 150px;
+    height: 170px;
+    background: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 15px;
+    font-family: "DynaPuff", cursive;
+    transition: 1s;
+
+
+}
+
+
+.wrapper{
+
+    max-width: 850px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+
+
+}
+
+
+.item:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+h2{
+
+    margin: 0;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Cause", sans-serif;
+}
+
+.start{
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.end{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cause", sans-serif;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.grid img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
