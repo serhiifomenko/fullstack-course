@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1c261c;
+    background: linear-gradient(177deg,rgba(28, 38, 28, 1) 0%, rgba(17, 72, 130, 1) 54%, rgba(98, 153, 127, 1) 100%);
+}
+.osnova{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.osnovabox{
+    width: 200px;
+    height: 200px;
+    background: darkorange;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    transition: 1s;
+}
+.osnovabox p{
+    text-align: center;
+    margin-top: 45%;
+}
+.raspol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+.font1{
+    font-family: "Rubik Pixels", cursive;
+}
+.font2{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.font3{
+    font-family: "Dancing Script", cursive;
+}
+.font4{
+    font-family: "Fjalla One", cursive;
+}
+.font5{
+    font-family: "Indie Flower", cursive;
+}
+.osnovabox:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    outline: 4px solid darkblue;
+}
