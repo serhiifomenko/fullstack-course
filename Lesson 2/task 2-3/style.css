@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #6e856e;
+    background: linear-gradient(55deg,rgba(110, 133, 110, 1) 0%, rgba(23, 171, 0, 1) 54%, rgba(31, 255, 136, 1) 100%);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    padding: 60px 0;
+    height: 100vh;
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    gap: 30px;
+}
+.month{
+    background: lavender;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 100px 0 rgba(0, 0, 0, 0.4), 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    transition: 1s ease;
+}
+.month p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+}
+.month p strong{
+    font-size: 18px;
+    margin: 5px;
+}
+h4{
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.month:hover{
+    transition: 1s ease;
+    transform: scale(1.05);
+}
