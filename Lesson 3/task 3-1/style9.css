@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-color: white;
+}
+main article{
+    background-color: #1555a5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header{
+    width: 95vw;
+    height: 40vh;
+
+    margin: 0 auto 20px;
+}
+main{
+    width: 95vw;
+    margin: 0 auto 20px;
+
+    display: flex;
+    gap: 20px;
+}
+main article{
+    width: 35.9vw;
+    height: 80vh;
+}
+footer{
+    width: 95vw;
+    height: 130vh;
+    margin: 0 auto 20px;
+}
+header, footer {
+
+    background-color: #4f81b8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
