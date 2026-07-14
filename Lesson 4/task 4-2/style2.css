@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    background: #8D8484;
+}
+footer{
+    background: #BDBDBD;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.content article{
+    height: 20vh;
+    width: 73vw;
+
+    display: flex;
+    flex-direction: column;
+}
+.content .one{
+    background: #776969;
+}
+.content .two{
+    background: #643030;
+}
+.content .three{
+    background: #441818;
+}
+.spam article{
+    width: 27vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+}
+.spam .first{
+    background: #937575;
+}
+.spam .second{
+    background: #644C4C;
+}
+p{
+    margin: 0  auto;
+    font-size: 30px;
+    color: white;
+}
+.content article,
+.spam article {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; /* по вертикали */
+    align-items: center;     /* по горизонтали */
+    text-align: center;
+}
+header,
+footer {
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: black;
+}
+header p{
+    color: #040000;
+}
