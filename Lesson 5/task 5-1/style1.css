@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+    background-color: #690340;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.fank {
+    width: 120px;
+
+    margin-left: -200px;
+    margin-top: -350px;
+}
+.spider{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hands{
+    display: flex;
+    justify-content: space-evenly;
+
+    gap: 250px;
+}
+.hands1{
+    animation: hands1 3s linear infinite;
+}
+.hands2{
+    animation: hands2 3s linear infinite;
+}
+.spider1{
+    animation: spider1 3s linear infinite;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes hands1{
+    from{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, -350px);
+    }
+    50%{
+        transform: translate(175px, -350px);
+    }
+    75%{
+        transform: translate(0, -350px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+@keyframes hands2{
+    from{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, -350px);
+    }
+    50%{
+        transform: translate(-175px, -350px);
+    }
+    75%{
+        transform: translate(0, -350px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+@keyframes spider1{
+    from{
+        transform: translate(0, 0);
+    }
+    40%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(0, 250px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
