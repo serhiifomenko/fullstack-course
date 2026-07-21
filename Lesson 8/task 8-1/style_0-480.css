@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 16px 32px;
+
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        row-gap: 40px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 320 / 223;
+        object-fit: cover;
+        display: block;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .milton {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+}
