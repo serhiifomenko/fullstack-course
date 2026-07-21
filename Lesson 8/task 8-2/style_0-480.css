@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+    main{
+        width: 100%;
+        height: auto;
+
+        padding: 16px 32px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 32px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}
