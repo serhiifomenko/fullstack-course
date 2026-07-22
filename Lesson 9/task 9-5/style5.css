@@ -13,7 +13,6 @@ body{
 body{
     display: grid;
 
-    /* Верх, середина, низ */
     grid-template-rows: 50fr 956fr 111fr;
 
     grid-template-areas:
